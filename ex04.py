@@ -105,6 +105,7 @@ class FileSystem:
         for i in self.route :
             self.wd = self.wd.filelist[i]   # move follow the route list
             path_ += "/" + self.wd.name     # store the names of the directories one by one
+        print(path)
         return path_root + path_
      
         
